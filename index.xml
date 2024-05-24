@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batch9b>
+    <student id="101"> 
+        <name>ubaid</name>
+        <courseEnroll>DISM</courseEnroll>
+        <semester>DISM</semester>
+        <fee>8100</fee>
+    </student>
+    <student id="102"> 
+        <name>abu bakar</name>
+        <courseEnroll>DISM</courseEnroll>
+        <semester>DISM</semester>
+        <fee>8100</fee>
+    </student>
+    <student id="103"> 
+        <name>babar</name>
+        <courseEnroll>DISM</courseEnroll>
+        <semester>DISM</semester>
+        <fee>8100</fee>
+    </student>
+</batch9b>
