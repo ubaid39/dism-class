@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students[
+    <!ELEMENT students (student)+>
+    <!ELEMENT student (id,name,(email|phone)*,age)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+]>
+<students>
+    <student>
+        <id>1534457</id>
+        <name>ubaid</name>
+        <phone>03115645986</phone>
+        <age>19</age>
+    </student>
+    <student>
+        <id>1534457</id>
+        <name>ubaid</name>
+        <email></email>
+        <phone>03115645986</phone>
+        <age>19</age>
+    </student>
+        <student>
+        <id>1534457</id>
+        <name>ubaid</name>
+        <email>ubaid@gmail.com</email>
+
+        <age>19</age>
+    </student>
+    <student>
+        <id>1534457</id>
+        <name>ubaid</name>
+    
+        <phone>03115645986</phone>
+        <age>19</age>
+    </student>
+</students>
