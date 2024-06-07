@@ -9,14 +9,12 @@
 <body>
     <div class="container">
         <h1 class="text-center text-danger">Basic Calculator</h1>
-            <div class="row">
-                <div class="col-lg 5"></div>
-            </div>
-
+            <div class="justify-content-center">
+                <div class="col-lg-5">
         <div class="table-responsive">
             <table class="table table-primary">
                 <tr>
-                    <td colspan="4"><input type="text" class="form-control"></td>
+                    <td colspan="4"><input type="text" id="resultBox" class="form-control"></td>
                 </tr>
                 <tr class="">
                     <td scope="row">
@@ -29,21 +27,111 @@
                 <tr class="">
                     <td scope="row">
                         <button type="button" 
-                         class="btn btn-outline-primary" onclick="oprand(1)"
-                        >1
+                         class="btn btn-outline-primary" onclick="oprand(2)"
+                        >2
                         </button>
                     </td>
                 </tr>
                 <tr class="">
                     <td scope="row">
                         <button type="button" 
-                         class="btn btn-outline-primary" onclick="oprand(1)"
-                        >1
+                         class="btn btn-outline-primary" onclick="oprand(3)"
+                        >3
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand(4)"
+                        >4
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand(5)"
+                        >5
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand(6)"
+                        >6
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand(7)"
+                        >7
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand(8)"
+                        >8
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand(9)"
+                        >9
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand(0)"
+                        >0
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand('+')"
+                        >+
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand('-')"
+                        >-
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand('*')"
+                        >*
+                        </button>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td scope="row">
+                        <button type="button" 
+                         class="btn btn-outline-primary" onclick="oprand('/')"
+                        >/
                         </button>
                     </td>
                 </tr>
                 
             </table>
+        </div>
+        </div>
         </div>
     </div>
     <script src="js/calculator.js"></script>
